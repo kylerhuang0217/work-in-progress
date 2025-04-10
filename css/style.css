@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #aaa;
+}
+a:hover {
+  border-bottom: 3px solid #aaa;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 50px;
+}
+.hero h1 {
+  font-size: 55px;
+}
+.hero p {
+  font-size: 20px;
+}
+
+/* Project-list */
+.project-list .project-list-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-list .project-list-flex .project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 700px;
+  border-top: 2px solid #333;
+}
+.project-list .project-list-flex .project-item span svg {
+  width: 40px;
+  height: 40px;
+}
+.project-list .project-list-flex .project-item h1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.project-list .project-list-flex .project-item ul {
+  margin-left: 75px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.project-list .project-list-flex .project-item ul li {
+  font-size: 20px;
+}
+.project-list .project-list-flex .project-item .demo-preview {
+  margin-bottom: 55px;
+  border: 1px solid #aaa;
+}
+.project-list .project-list-flex .project-item .demo-preview img {
+  max-width: 100%;
+}/*# sourceMappingURL=style.css.map */
