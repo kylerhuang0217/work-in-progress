@@ -68,4 +68,23 @@ a:hover {
 }
 .project-list .project-list-flex .project-item .demo-preview img {
   max-width: 100%;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 25px;
+  }
+  .hero p {
+    font-size: 15px;
+  }
+  .project-list .project-list-flex .project-item {
+    width: 300px;
+  }
+  .project-list .project-list-flex .project-item h1 {
+    font-size: 20px;
+  }
+  .project-list .project-list-flex .project-item ul li {
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */
